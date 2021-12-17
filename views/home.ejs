@@ -1,0 +1,37 @@
+<%- include("header") -%>
+
+  <div class="jumbotron">
+    <h1>IEEE BACKEND ASSIGNMENT</h1>
+    <h4>Tech Stack Used</h4>
+    <p>Express, NodeJS, Mongoose, BootstrapCSS</p>
+  </div>
+  <div class="menu">
+      <div class="row">
+          
+    <div class="col-md-3">
+      <h3>To create new user</h3>
+      <button class="btn btn-primary" onclick="window.location.href='/users/create'">Add new user</button>
+
+    </div>
+    <div class="col-md-3">
+      <h3>To view all user</h3>
+
+      <button class="btn btn-primary" onclick="window.location.href='/users/all'">View all users</button>
+
+    </div>
+    <div class="col-md-3">
+      <h3>To create new meeting</h3>
+
+      <button class="btn btn-primary" onclick="window.location.href='/meeting/create'">Add new meeting</button>
+
+    </div>
+    <div class="col-md-3">
+      <h3>To view all meeting</h3>
+
+      <button class="btn btn-primary" onclick="window.location.href='/meeting/all'">View all meetings</button>
+
+    </div>
+    </div>
+  </div>
+
+  <%- include("footer") -%>

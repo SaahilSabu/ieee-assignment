@@ -1,0 +1,12 @@
+<%- include("header") -%> 
+<div class="jumbotron" style="margin: 20px;">
+<h1>
+    All Meetings
+</h1>
+
+<% meeting.forEach(function(meeting){ %>
+    <p><%=JSON.stringify(meeting, null, 4)%>
+<% }) %> 
+    </div>
+
+<%- include("footer") -%> 

@@ -1,0 +1,27 @@
+<%- include("header") -%> 
+
+<div class = "jumbotron" style="margin: 20px;">
+<h1>
+    New Meeting Registration Form
+</h1>
+
+
+    <h1>
+    </h1>
+<form action = "/meeting/new" method = "post">
+
+    <input type="text" name = "uid_1" placeholder="Enter first uid" />
+    <input type="text" name = "uid_2" placeholder="Enter second uid" />
+    <input type="date" name = "date" placeholder="Enter Date" />
+    <button type="submit" class="btn btn-primary" name="MeetingSubmit" >Add Meeting</button>
+
+</form>
+
+</div>
+
+
+
+
+
+
+<%- include("footer") -%> 
